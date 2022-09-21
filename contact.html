@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Ms+Madi&family=Updock&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>
+        SPACE
+    </title>
+    <!-- add icon link -->
+    <link rel="icon" href="image/aleko.png" type="image/x-icon">
+</head>
+
+<body id="body">
+    <!-- header -->
+    <header>
+        <div class="maindiv">
+            <div class="sunico">
+                <h2>&#10050</h2>
+            </div>
+
+            <div class="line"></div>
+            <div class="navdiv">
+                <ul>
+
+                    <a href="index.html">
+                        <li class="navbarelem">home</li>
+                    </a>
+
+                    <a href="about.html">
+                        <li class="navbarelem">about</li>
+                    </a>
+                    <a href="contact.html">
+                        <li class="navbarelem">contact</li>
+                    </a>
+
+                    <li class="navbarelem" id="singup" onclick="removeClass()">sing up</li>
+                    <li class="navbarelem"><button onclick="myFunction()" class="dropbtn">&#x2630;</button></li>
+                </ul>
+
+            </div>
+        </div>
+        <div id="Dropdowndiv" class="dropdowndiv">
+            <!-- galaxy -->
+            <a href="galaxy.html"><img class="planets" src="https://cdn.dribbble.com/users/14038/screenshots/6361899/galaxy_dribbble.gif" alt="image"></a>
+            <!-- sun -->
+            <a href="sun.html"><img class="planets" src="https://64.media.tumblr.com/b41b9e63e0e6cbe3b54bb17e24bdc952/tumblr_o91p63wo7m1s4fz4bo1_500.gifv" alt=""></a>
+            <!-- earth -->
+            <a href="earth.html"><img class="planets" src="https://www.nasa.gov/sites/default/files/styles/full_width_feature/public/thumbnails/image/dscovr-epic-21-aug-2017-solar-eclipse-shadow.gif" alt=""></a>
+            <!-- moon -->
+            <a href="moon.html"><img class="planets" src="https://media0.giphy.com/media/aN9GqoR7OD3nq/giphy.gif" alt="image"></a>
+
+
+        </div>
+    </header>
+    <h1>contact</h1>
+    <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2981.2681058167!2d41.62458495124984!3d41.64994898753753!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4067866a2edc5d9d%3A0x4fc48bfea5fdb3cf!2z4YOR4YOQ4YOX4YOj4YOb4YOY4YOhIOGDqOGDneGDl-GDkCDhg6Dhg6Phg6Hhg5fhg5Dhg5Xhg5Thg5rhg5jhg6Eg4YOh4YOQ4YOu4YOU4YOa4YOd4YOR4YOY4YOhIOGDoeGDkOGDruGDlOGDmuGDm-GDrOGDmOGDpOGDnSDhg6Phg5zhg5jhg5Xhg5Thg6Dhg6Hhg5jhg6Lhg5Thg6Lhg5g!5e0!3m2!1ska!2sge!4v1654270934097!5m2!1ska!2sge"
+        width="80%" height="60%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    <div id="registerdiv" class="none">
+        <div class="indiv">
+            <h2 id="outreg">&#x2613;</h2><br>
+            <input class="data" type=" text " placeholder="first name"><br>
+            <input class="data" type=" text " placeholder="last name"><br>
+            <input class="data" type="date" placeholder="age"><br>
+            <input class="data" type="tel" pattern="[5]{1}-[0-9]{2}-[0-9]{2}-[0-9]{2}" placeholder="Tel:"><br>
+            <input class="data" type=" email " placeholder="email"><br>
+            <input class="data" type=" password " placeholder=" password"><br>
+            <input class="data" type="password" placeholder="Repeat password"><br>
+            <button class="submit">
+                submit
+            </button>
+        </div>
+    </div>
+    <footer>
+        <label style="color: #fff;" for="">CONTACT US</label>
+        <a style="color: #fff;" href="mailto:mail@gmail.com?cc=name2@rapidtables.com&bcc=name3@rapidtables.com
+        &subject=The%20subject%20of%20the%20email
+        &body=The%20body%20of%20the%20email">mail@gmail.com
+        </a></footer>
+    <script src="index.js"></script>
+</body>
+
+</html>

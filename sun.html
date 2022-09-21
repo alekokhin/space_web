@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Ms+Madi&family=Updock&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>
+        SPACE
+    </title>
+    <!-- add icon link -->
+    <link rel="icon" href="image/aleko.png" type="image/x-icon">
+</head>
+
+<body id="body">
+    <!-- header -->
+    <header>
+        <div class="maindiv">
+            <div class="sunico">
+                <h2>&#10050</h2>
+            </div>
+
+            <div class="line"></div>
+            <div class="navdiv">
+                <ul>
+
+                    <a href="index.html">
+                        <li class="navbarelem">home</li>
+                    </a>
+
+                    <a href="about.html">
+                        <li class="navbarelem">about</li>
+                    </a>
+                    <a href="contact.html">
+                        <li class="navbarelem">contact</li>
+                    </a>
+
+                    <li class="navbarelem" id="singup" onclick="removeClass()">sing up</li>
+                    <li class="navbarelem"><button onclick="myFunction()" class="dropbtn">&#x2630;</button></li>
+                </ul>
+
+            </div>
+        </div>
+        <div id="Dropdowndiv" class="dropdowndiv">
+            <!-- galaxy -->
+            <a href="galaxy.html"><img class="planets" src="https://cdn.dribbble.com/users/14038/screenshots/6361899/galaxy_dribbble.gif" alt="image"></a>
+            <!-- sun -->
+            <a href="sun.html"><img class="planets" src="https://64.media.tumblr.com/b41b9e63e0e6cbe3b54bb17e24bdc952/tumblr_o91p63wo7m1s4fz4bo1_500.gifv" alt=""></a>
+            <!-- earth -->
+            <a href="earth.html"><img class="planets" src="https://www.nasa.gov/sites/default/files/styles/full_width_feature/public/thumbnails/image/dscovr-epic-21-aug-2017-solar-eclipse-shadow.gif" alt=""></a>
+            <!-- moon -->
+            <a href="moon.html"><img class="planets" src="https://media0.giphy.com/media/aN9GqoR7OD3nq/giphy.gif" alt="image"></a>
+
+
+        </div>
+    </header>
+    <h1>sun</h1>
+    <div class="textdiv">
+        <a href="sun.html"><img style="float: left;" class="planets" src="https://64.media.tumblr.com/b41b9e63e0e6cbe3b54bb17e24bdc952/tumblr_o91p63wo7m1s4fz4bo1_500.gifv" alt=""></a>
+        <p class="inftext">
+            The Sun is the star at the center of the Solar System. It is a nearly perfect ball of hot plasma, heated to incandescence by nuclear fusion reactions in its core, radiating the energy mainly as visible light, ultraviolet, and infrared radiation. It is
+            the most important source of energy for life on Earth. The Sun's diameter is about 1.39 million kilometers (864,000 miles), or 109 times that of Earth. Its mass is about 330,000 times that of Earth, comprising about 99.86% of the total mass
+            of the Solar System. Roughly three-quarters of the Sun's mass consists of hydrogen (~73%); the rest is mostly helium (~25%), with much smaller quantities of heavier elements, including oxygen, carbon, neon, and iron. The Sun is a G-type main-sequence
+            star (G2V). As such, it is informally, and not completely accurately, referred to as a yellow dwarf (its light is closer to white than yellow). It formed approximately 4.6 billion years ago from the gravitational collapse of matter within
+            a region of a large molecular cloud. Most of this matter gathered in the center, whereas the rest flattened into an orbiting disk that became the Solar System. The central mass became so hot and dense that it eventually initiated nuclear fusion
+            in its core. It is thought that almost all stars form by this process. Every second, the Sun's core fuses about 600 million tons of hydrogen into helium, and in the process converts 4 million tons of matter into energy. This energy, which
+            can take between 10,000 and 170,000 years to escape the core, is the source of the Sun's light and heat. When hydrogen fusion in its core has diminished to the point at which the Sun is no longer in hydrostatic equilibrium, its core will undergo
+            a marked increase in density and temperature while its outer layers expand, eventually transforming the Sun into a red giant. It is calculated that the Sun will become sufficiently large to engulf the current orbits of Mercury and Venus, and
+            render Earth uninhabitable – but not for about five billion years. After this, it will shed its outer layers and become a dense type of cooling star known as a white dwarf, and no longer produce energy by fusion, but still glow and give off
+            heat from its previous fusion. The enormous effect of the Sun on Earth has been recognized since prehistoric times. The Sun was thought of by some cultures as a deity. The synodic rotation of Earth and its orbit around the Sun are the basis
+            of some solar calendars. The predominant calendar in use today is the Gregorian calendar which is based upon the standard 16th-century interpretation that the Sun's observed movement is primarily due to it actually moving.</p>
+    </div>
+
+    <div id="registerdiv" class="none">
+        <div class="indiv">
+            <h2 id="outreg">&#x2613;</h2><br>
+            <input class="data" type=" text " placeholder="first name"><br>
+            <input class="data" type=" text " placeholder="last name"><br>
+            <input class="data" type="date" placeholder="age"><br>
+            <input class="data" type="tel" pattern="[5]{1}-[0-9]{2}-[0-9]{2}-[0-9]{2}" placeholder="Tel:"><br>
+            <input class="data" type=" email " placeholder="email"><br>
+            <input class="data" type=" password " placeholder=" password"><br>
+            <input class="data" type="password" placeholder="Repeat password"><br>
+            <button class="submit">
+                submit
+            </button>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>

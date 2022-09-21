@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Ms+Madi&family=Updock&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>
+        SPACE
+    </title>
+    <!-- add icon link -->
+    <link rel="icon" href="image/aleko.png" type="image/x-icon">
+</head>
+
+<body id="body">
+    <!-- header -->
+    <header>
+        <div class="maindiv">
+            <div class="sunico">
+                <h2>&#10050</h2>
+            </div>
+
+            <div class="line"></div>
+            <div class="navdiv">
+                <ul>
+
+                    <a href="index.html">
+                        <li class="navbarelem">home</li>
+                    </a>
+
+                    <a href="about.html">
+                        <li class="navbarelem">about</li>
+                    </a>
+                    <a href="contact.html">
+                        <li class="navbarelem">contact</li>
+                    </a>
+
+                    <li class="navbarelem" id="singup" onclick="removeClass()">sing up</li>
+                    <li class="navbarelem"><button onclick="myFunction()" class="dropbtn">&#x2630;</button></li>
+                </ul>
+
+            </div>
+        </div>
+        <div id="Dropdowndiv" class="dropdowndiv">
+            <!-- galaxy -->
+            <a href="galaxy.html"><img class="planets" src="https://cdn.dribbble.com/users/14038/screenshots/6361899/galaxy_dribbble.gif" alt="image"></a>
+            <!-- sun -->
+            <a href="sun.html"><img class="planets" src="https://64.media.tumblr.com/b41b9e63e0e6cbe3b54bb17e24bdc952/tumblr_o91p63wo7m1s4fz4bo1_500.gifv" alt=""></a>
+            <!-- earth -->
+            <a href="earth.html"><img class="planets" src="https://www.nasa.gov/sites/default/files/styles/full_width_feature/public/thumbnails/image/dscovr-epic-21-aug-2017-solar-eclipse-shadow.gif" alt=""></a>
+            <!-- moon -->
+            <a href="moon.html"><img class="planets" src="https://media0.giphy.com/media/aN9GqoR7OD3nq/giphy.gif" alt="image"></a>
+
+
+        </div>
+    </header>
+    <h1>moon</h1>
+    <div class="textdiv">
+        <a href="moon.html"><img style="float: left;" class="planets" src="https://media0.giphy.com/media/aN9GqoR7OD3nq/giphy.gif" alt="image"></a>
+        <p class="inftext">The Moon is Earth's only natural satellite. At about one-quarter the diameter of Earth (comparable to the width of Australia),[16] it is the fifth largest satellite in the Solar System, the largest satellite in the Solar System relative to its
+            major planet,[f] and larger than any known dwarf planet. The Moon is a planetary-mass object that formed a differentiated rocky body, making it a satellite planet under the geophysical definitions of the term.[17] It lacks any significant
+            atmosphere, hydrosphere, or magnetic field. Its surface gravity is about one-sixth of Earth's (0.1654 g). Jupiter's moon Io is the only satellite in the Solar System known to have a higher surface gravity and density. Orbiting Earth at an
+            average distance of 384,400 km (238,900 mi), or about 30 times Earth's diameter, its gravitational influence very slowly lengthens Earth's day and is the main driver of Earth's tides. The Moon's orbit around Earth has a sidereal period of
+            27.3 days. During each synodic period of 29.5 days, the amount of visible surface illuminated by the Sun varies from none up to 100%, resulting in lunar phases that form the basis for the months of a lunar calendar. The Moon is tidally locked
+            to Earth, which means that the length of a full rotation of the Moon on its own axis causes its same side (the near side) to always face Earth, and the somewhat longer lunar day is the same as the synodic period. That said, 59% of the total
+            lunar surface can be seen from Earth through shifts in perspective due to libration. The most widely accepted origin explanation posits that the Moon formed 4.51 billion years ago, not long after Earth, out of the debris from a giant impact
+            between the planet and a hypothesized Mars-sized body called Theia. It then receded to a wider orbit because of tidal interaction with the Earth. The near side of the Moon is marked by dark volcanic maria ("seas"), which fill the spaces between
+            bright ancient crustal highlands and prominent impact craters. Most of the large impact basins and mare surfaces were in place by the end of the Imbrian period, some three billion years ago. The lunar surface is relatively non-reflective,
+            with a reflectance just slightly brighter than that of worn asphalt. However, because it has a large angular diameter, the full moon is the brightest celestial object in the night sky. The Moon's apparent size is nearly the same as that of
+            the Sun, allowing it to cover the Sun almost completely during a total solar eclipse. Both the Moon's prominence in Earth's sky and its regular cycle of phases have provided cultural references and influences for human societies throughout
+            history. Such influences can be found in language, calendar systems, art, and mythology. The first artificial object to reach the Moon was the Soviet Union's Luna 2 uncrewed spacecraft in 1959; this was followed by the first successful soft
+            landing by Luna 9 in 1966. The only human lunar missions to date have been those of the United States' Apollo program, which landed twelve men on the surface between 1969 and 1972. These and later uncrewed missions returned lunar rocks that
+            have been used to develop a detailed geological understanding of the Moon's origins, internal structure, and subsequent history.</p>
+    </div>
+    <div id="registerdiv" class="none">
+        <div class="indiv">
+            <h2 id="outreg">&#x2613;</h2><br>
+            <input class="data" type=" text " placeholder="first name"><br>
+            <input class="data" type=" text " placeholder="last name"><br>
+            <input class="data" type="date" placeholder="age"><br>
+            <input class="data" type="tel" pattern="[5]{1}-[0-9]{2}-[0-9]{2}-[0-9]{2}" placeholder="Tel:"><br>
+            <input class="data" type=" email " placeholder="email"><br>
+            <input class="data" type=" password " placeholder=" password"><br>
+            <input class="data" type="password" placeholder="Repeat password"><br>
+            <button class="submit">
+                submit
+            </button>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
